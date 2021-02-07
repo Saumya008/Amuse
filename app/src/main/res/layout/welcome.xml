@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/welbg"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="340dp"
+        android:layout_height="343dp"
+        android:layout_marginLeft="5dp"
+        app:srcCompat="@drawable/blklogotr" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textSize="25dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="115dp"
+        android:textStyle="bold"
+        android:textColor="#412450"/>
+
+    <TextView
+        android:id="@+id/textView00"
+        android:layout_width="300dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:text="The  best  way to be amused is to try new activities. So let's get started!"
+        android:textColor="#412450"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp">
+
+        <TableRow
+            android:layout_width="528dp"
+            android:layout_height="120dp">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="23dp"
+                android:alpha="55"
+                android:background="#00000000"
+                android:text="Login"
+
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="23dp"
+                android:alpha="55"
+                android:background="#00000000"
+                android:text="Signup"
+                android:textColor="@color/white" />
+
+        </TableRow>
+    </TableLayout>
+
+
+
+</LinearLayout>

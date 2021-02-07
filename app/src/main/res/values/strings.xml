@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Amuse</string>
+        <string name="correct"><b>CORRECTNESS IS</b> \n<b>%1$d</b> OUT OF 6</string>
+        <string name="true_text">true</string>
+        <string name="false_text">false</string>
+        <string name="correct_answer">That\'s correct</string>
+        <string name="wrong_answer">That\'s incorrect</string>
+        <string name="a">A child has more bones then the adult.</string>
+        <string name="b">There are two parts of the body that can\'t heal themselves.</string>
+        <string name="c">\'A\' is the most common letter used in the English language.</string>
+        <string name="d">\'What Do You Mean\' was Justin Bieber\'s first UK number one single.</string>
+        <string name="e">Serena Williams has one more singles tennis Grand Slam titles than sister Venus.</string>
+        <string name="f">Jordan North won I\'m A Celebrity... Get Me Out Of Here! in 2020</string>
+        <string name="g">Bananas are curved because they grow upwards towards the sun.</string>
+        <string name="h">Hillary Clinton and Celine Dion are related.</string>
+        <string name="i">Queen Elizabeth II is currently the second longest reigning British monarch.</string>
+        <string name="j">K is worth four points in Scrabble.</string>
+        <string name="next_text">next</string>
+        <string name="prev_text">previous</string>
+
+</resources>

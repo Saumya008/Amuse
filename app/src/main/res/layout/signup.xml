@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgsignup">
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+
+        android:ellipsize="end"
+        android:hint="Full Name"
+        android:maxLines="1"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:ellipsize="end"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/pass1"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="0dp"
+        android:ellipsize="end"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="314dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:text="By creating an account you agree to our \nTerms of Services and Privacy Policy"
+
+        android:textColor="#00B0FF" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="140dp"
+        android:alpha="55"
+        android:textColor="@color/white"
+        android:background="#00000000"
+        android:text="Submit"
+        />
+
+
+
+</LinearLayout>

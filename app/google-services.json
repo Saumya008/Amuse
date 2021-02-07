@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825751714136",
+    "project_id": "amuse-31ec5",
+    "storage_bucket": "amuse-31ec5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825751714136:android:61a41733231effd362cd2d",
+        "android_client_info": {
+          "package_name": "com.example.amuse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825751714136-okc4sk652qjvr28m4eggr72dmvrcsff2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClm4w6UcGr6y50fhOwgC3H1B6CErDn7OQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825751714136-okc4sk652qjvr28m4eggr72dmvrcsff2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
